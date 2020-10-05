@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>the official home of yify movies</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="YTS.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- nav bar started -->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img
+              src="image/Logo-YTS.svg.png"
+              alt="logo"
+              style="height: 30px ; width: 90px"
+            />
+          </a>
+
+          <a class="navbar-toggle" data-toggle=" collapse" data-target="#">
+            <span class="glyphicon glyphicon-user g"></span>
+          </a>
+
+          <a class="navbar-toggle" data-toggle="collapse" data-target="#">
+            <span class="glyphicon glyphicon-list g"></span>
+          </a>
+
+          <a
+            class="navbar-toggle"
+            data-toggle="modal"
+            data-target="#mymodal"
+            href="#"
+          >
+            <span class="glyphicon glyphicon-search g"></span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="mynav">
+          <ul class="nav navbar-nav" style="margin-left: 370px">
+            <li>
+              <form>
+                <input
+                  type="search"
+                  name="searcher"
+                  placeholder="  Quick search"
+                  style="border-radius:50px;
+                        color: whitesmoke ;
+                        width:210px ;
+                        background-color:#222222;
+                        border: solid dimgray 2px ;
+                        height: 35px;margin-top: 7px;"
+                />
+              </form>
+            </li>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse movie</a></li>
+            <li><a style="color: white" href="#">Login</a></li>
+            <li style="margin-top: 15px">&nbsp;|&nbsp;</li>
+            <li><a style="color: white" href="#">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--large modal start-->
+
+    <div class="modal fade" id="mymodal" role="dialog">
+      <div class="modal-dialog model-lg">
+        <div class="modal-content" style="background-color:#222222 ">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h4 style="color: whitesmoke">Search</h4>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <input
+                type="search"
+                name="searcher"
+                placeholder="  Quick search"
+                style="border-radius:50px;
+                        color: whitesmoke ;
+                        width:210px ;
+                        background-color:#222222;
+                        border: solid dimgray 2px ;
+                        height: 35px;margin-top: 7px;"
+              />
+            </form>
+            <br />
+            <h5 style="color: whitesmoke">
+              you can search here to find <br />
+              any movie you want to watch
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--large modal end-->
+
+    <div id="mother" class="container-fluid">
+      <div class="container" id="aheader">
+        <div class="row">
+          <div class="container hidden-xs hidden-sm col">
+            <h1 style="font-size: 7.7vmin">
+              <strong>Download YTS YIFY movies:HD smallest size</strong>
+            </h1>
+            <p style="font-size: 3vmin ; color: gray">
+              welcome to the official YTS.AM website. here you will be able to
+              browse and download YIFY movies in <br />
+              excellent 720p, 1080p and 3D quality, all at the smallest file
+              size. Only here: YTS Movies Torrents.
+            </p>
+            <br />
+          </div>
+
+          <div class="col">
+            <h4>
+              <span
+                style="font-size: small "
+                class="glyphicon glyphicon-star"
+              ></span>
+              <strong>popular downloads</strong>
+            </h4>
+            <hr style="width: 100%" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="rows">
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-4 movies">
+            <a href="#"
+              ><img class="mimg" src="image/medium-cover (15).jpg" alt="movie"
+            /></a>
+            <h4 class="ex"><strong>how to train your dragon:t...</strong></h4>
+            <h5 style="color:darkgray;">2019</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 col-sm-4 movies">
+            <a href="#"
+              ><img class="mimg" src="image/images.jpeg" alt="movie"
+            /></a>
+            <h4 class="ex"><strong>Escape Room</strong></h4>
+            <h5 style="color:darkgray;">2019</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 col-sm-4 movies">
+            <a href="#"
+              ><img class="mimg" src="image/medium-cover (1).jpg" alt="movie"
+            /></a>
+            <h4 class="ex"><strong>Glass</strong></h4>
+            <h5 style="color:darkgray;">2019</h5>
+          </div>
+          <div class="col-md-3 col-xs-6 col-sm-4 movies">
+            <a href="#"
+              ><img class="mimg" src="image/medium-cover (2).jpg" alt="movie"
+            /></a>
+            <h4 class="ex"><strong>Mortal Engines</strong></h4>
+            <h5 style="color:darkgray;">2018</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="warning" class="container hidden-sm hidden-xs">
+        <h1 style="font-size: 8vmin">
+          <strong>Warning! Download only with VPN...</strong>
+        </h1>
+        <hr style="width: 80%" />
+        <p>
+          Downloading torrents is risky for you: your IP and leaked private data
+          being actively tracked by your ISP and Government Agencies. Protect
+          yourself from expensive lawsuits and fines NOW! You must use a VPN
+          like Express. It is the only way to download torrents fully anonymous
+          by encrypting all traffic with zero logs.
+        </p>
+
+        <p style="font-size: 3vmin" id="yellow">
+          Personal data disclosing your real identity: your IP address,
+          154.188.50.125 is exposed, which points directly to your location in .
+          You are navigating with Chrome 73.0.3683.103Chrome 73.0 .3683.103 on
+          Windows 10Windows 10 with a display resolution of 1366x7681366x768 and
+          the CPU of your device has 44 cores .
+        </p>
+
+        <p style="font-size: 3vmin" id="blue">
+          ″Do not risk it! Protect yourself right now by downloading Expr ess
+          VPN″ - William
+        </p>
+
+        <div class="row">
+          <div class="col-xs-4 col-md-4"></div>
+          <div class="col-xs-4 col-md-4">
+            <br />
+            <button
+              style="font-size: 3vmin"
+              type="button"
+              class="btn btn-success btn-block"
+            >
+              Dwnload Express Vpn
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-4"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="fill">
+      <h3>Latest YIFY Movies Torrents</h3>
+      <h4 style="margin-left: 1050px ;color: gray">Browse All</h4>
+    </div>
+
+    <div class="container">
+      <div class="row" id="row2">
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (3).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>Emprace of the surpent</strong></h4>
+          <h5 style="color:darkgray;">2015</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (4).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>The Secret In Their Eyes</strong></h4>
+          <h5 style="color:darkgray;">2009</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (5).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>Dolphins and Whales</strong></h4>
+          <h5 style="color:darkgray;">2008</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (6).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>Near dark</strong></h4>
+          <h5 style="color:darkgray;">1987</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" id="row3">
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (8).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>Rasen</strong></h4>
+          <h5 style="color:darkgray;">1998</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (7).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>The Dirty Dozen</strong></h4>
+          <h5 style="color:darkgray;">1967</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (10).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>The Castle of Cagliostro</strong></h4>
+          <h5 style="color:darkgray;">1979</h5>
+        </div>
+
+        <div class="col-md-3 col-xs-6 col-sm-4">
+          <a href="#"
+            ><img src="image/medium-cover (9).jpg" alt="" class="mimg"
+          /></a>
+          <h4 class="ex"><strong>Puffalo Boys</strong></h4>
+          <h5 style="color:darkgray;">2018</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color:#1d1d1d ">
+      <div class="container">
+        <div class="row" id="row4">
+          <br />
+          <h3 style="color: white">Up Coming YIFY movies</h3>
+          <h4 style="margin-left: 1000px ;color: gray">Requist a movie</h4>
+
+          <br />
+
+          <div class="col-md-3 col-xs-6 col-sm-4">
+            <a href="#"
+              ><img src="image/medium-cover (11).jpg" class="mimg"
+            /></a>
+            <h4 class="ex"><strong>Ultmate avengers</strong></h4>
+            <h5 style="color:darkgray;">2006</h5>
+          </div>
+
+          <div class="col-md-3 col-xs-6 col-sm-4">
+            <a href="#"
+              ><img src="image/medium-cover (12).jpg" class="mimg"
+            /></a>
+            <h4 class="ex"><strong>Storm Boy</strong></h4>
+            <h5 style="color:darkgray;">2019</h5>
+          </div>
+
+          <div class="col-md-3 col-xs-6 col-sm-4">
+            <a href="#"
+              ><img src="image/medium-cover (14).jpg" class="mimg"
+            /></a>
+            <h4 class="ex"><strong>High Life</strong></h4>
+            <h5 style="color:darkgray;">2018</h5>
+          </div>
+
+          <div class="col-md-3 col-xs-6 col-sm-4">
+            <a href="#"
+              ><img src="image/medium-cover (13).jpg" class="mimg"
+            /></a>
+            <h4 class="ex"><strong>Trouble in mind</strong></h4>
+            <h5 style="color:darkgray;">1985</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="row5">
+        <div class="col" style="text-align: center ; color: darkgray ">
+          <h5>
+            <strong style="color: white">YTS © 2011 - 2019</strong> - Blog -
+            DMCA - API - RSS - Contact - Browse Movies - Requests - Login
+          </h5>
+          <h5>EZTV - YTS VPN</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

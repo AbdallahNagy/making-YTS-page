@@ -1,0 +1,97 @@
+
+body{
+    background-color:#171717;
+}
+
+.g{
+    background-color: transparent;
+    color: white;
+}
+
+#mother{
+    height: 1200px;
+    background-image: url('image/IMG_20190418_192200.jpg');
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-color: #3c3c3c;
+}
+
+#aheader{
+    padding: 70px;
+    color: white;
+    text-align: center;
+    height: 350px;
+}
+
+#rows{
+    height: 390px;
+}
+
+.movies{
+    height: 350px ;
+
+}
+
+.mimg{
+    height: 310px;
+    width: 220px;
+    border: solid white 5px;
+    border-radius:10px ;
+}
+
+.mimg:hover{
+    height: 310px;
+    width: 220px;
+    border: solid white 5px;
+    border-radius:10px ;
+}
+
+#warning{
+    text-align: center ;
+    color: white ;
+    border: solid palegreen 5px;
+    height: 400px;
+}
+
+#fill{
+    background-color: #171717;
+    height:100px;
+    color: white;
+}
+
+#row2{
+    height: 350px;
+    background-color: #171717;
+}
+
+#row3{
+    background-color: #171717;
+    height: 420px;
+}
+
+#row4{
+    height: 525px;
+    background-color:#1d1d1d;
+}
+
+.ex{
+    color: white;
+}
+
+#row5{
+    height: 100px;
+    background-color: #171717;
+    margin: 30px;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#blue{
+    color: blue;
+}
+
+#accordion{
+    padding: 3em;
+}
